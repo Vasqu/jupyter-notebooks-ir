@@ -16,4 +16,4 @@ dependencies.
 
 ## Jupyter Binder
 
-TODO: add binder link after successful creation
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Vasqu/jupyter-notebooks-ir/main)
