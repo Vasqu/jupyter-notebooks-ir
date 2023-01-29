@@ -12,3 +12,4 @@ jellyfish
 scikit-learn
 pyparsing
 pyspark==3.3.1
+findspark
