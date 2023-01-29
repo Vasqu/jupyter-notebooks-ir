@@ -1,0 +1,14 @@
+matplotlib
+requests
+pandas
+bs4
+beautifulsoup4
+nltk
+numpy
+ipython
+Levenshtein
+pylcs
+jellyfish
+scikit-learn
+pyparsing
+pyspark==3.3.1
