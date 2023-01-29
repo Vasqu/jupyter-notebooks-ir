@@ -149,7 +149,7 @@ class InvertedIndex:
 
         # read corpus
         files_path = './invertedindex/corpora/wiki-a' if html else './invertedindex/corpora/reuters'
-        self.directory_path = 'searchenginedemo/invertedindex/corpora/wiki-a/' if html else 'searchenginedemo/invertedindex/corpora/reuters/'
+        self.directory_path = './invertedindex/corpora/wiki-a/' if html else './invertedindex/corpora/reuters/'
         self.corpus = self.spark.read.text(files_path, wholetext=True)
         self.corpus = self.corpus.withColumn("filename", input_file_name()).cache()
 
